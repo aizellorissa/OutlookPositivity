@@ -179,3 +179,28 @@ footer{
   text-align: center;
   font-size: 0.8em;
 }
+
+@media screen and (max-width: 800px) {
+  .pochi, .about, .article {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .episode{
+    display:none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .pochi, .about, .article {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .episode{
+    display:none;
+  }
+}
+@media screen and (max-width: 300px) {
+  .pochi, .about, .article, .episode {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .episode{
+    display:none;
+  }
+}
